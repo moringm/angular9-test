@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./shipping.component.css']
 })
 export class ShippingComponent implements OnInit {
-
+  shippingCosts;
+  
   constructor() { }
 
   ngOnInit() {
